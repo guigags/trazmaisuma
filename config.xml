@@ -12,7 +12,7 @@
     <access origin="http://www.trazmais1.com.br" subdomains="true" />
     
     
-    <content src="www/index.html" />
+    <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />

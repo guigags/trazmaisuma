@@ -33,20 +33,20 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+        var ref = cordova.InAppBrowser.open('https://trazmais1.com.br', '_blank', 'location=yes');
         app.receivedEvent('deviceready');
-        var ref = cordova.InAppBrowser.open('https://www.trazmais1.com.br', '_self', 'location=yes');
-        ref.show();
+        
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+        //var listeningElement = parentElement.querySelector('.listening');
+        //var receivedElement = parentElement.querySelector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
+//        listeningElement.setAttribute('style', 'display:none;');
+//        receivedElement.setAttribute('style', 'display:block;');
+//
+//        console.log('Received Event: ' + id);
         
     }
 };

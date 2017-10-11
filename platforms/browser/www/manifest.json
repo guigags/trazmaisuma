@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Traz Mais Uma - Buteco Virtual",
+  "short_name": "Traz Mais Uma - Buteco Virtual",
+  "version": "br.com.tarzmais1",
+  "description": "Traz Mais Uma - Buteco Virtual - Levando a experiência do boteco para sua casa",
+  "author": "Traz Mais Uma Team",
+  "icons": [],
+  "start_url": "index.html"
+}

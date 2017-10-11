@@ -1,18 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.tarzmais1" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <feature name="Camera">
-        <param name="browser-package" value="Camera" />
-    </feature>
-    <feature name="Device">
-        <param name="browser-package" value="Device" />
-    </feature>
+<widget id="br.com.tarzmais1" version="2.9.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Traz Mais Uma - Buteco Virtual</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Traz Mais Uma - Buteco Virtual - Levando a experiência do boteco para sua casa
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="contato@trazmais1.com.br" href="https://trazmais1.com.br">
+        Traz Mais Uma Team
     </author>
+    <access origin="http://www.trazmais1.com.br" subdomains="true" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
